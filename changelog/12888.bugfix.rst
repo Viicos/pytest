@@ -1,0 +1,1 @@
+Prevent :mod:`readline` from bugging out when the ``editline`` backend is used.

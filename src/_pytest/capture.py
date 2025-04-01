@@ -86,6 +86,8 @@ def _readline_workaround() -> None:
 
     Since Python 3.13, :mod:`readline` is imported at the root of the
     :mod:`pdb` module, as a side effect of importing :mod:`rlcompleter`.
+
+    See #12888 for details.
     """
     if sys.version_info >= (3, 13):
         try:
